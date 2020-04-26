@@ -36,9 +36,6 @@ body {
   background-color: rgb(22, 1, 1);
 
 }
-
-
-
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-linl.active,
 .navbar-light .navbar-nav .nav-linl.show, .navbar-light .navbar-nav .show > .nav-link{
   color:#fff;
@@ -91,7 +88,13 @@ float: right;
   top: 60.5%;
   left:50%;
   transform: translate(-50%,-50%);
+  font-family: chiller;
 
+}
+.btn-info:hover{
+  background-color: white !important;
+  color:gold !important;
+  transition: 0.6s ease;
 }
 
 #others{
@@ -100,7 +103,6 @@ float: right;
 }
 
 .btn-info{
-  background-color: #fff !important;
-  color: black !important;
+  background: black;
   border-color: gold !important;
 }
